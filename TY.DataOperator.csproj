@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: E:\study\TY.DataOperator.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4D3EE673-BA6E-4C76-8BD3-747377FF91E8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>TY.DataOperator</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ApplicationVersion>1.0.4391.21002</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>TY</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>lib\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="WriteLog.cs" />
+    <Compile Include="MSMQOperator`1.cs" />
+    <Compile Include="Encrypt.cs" />
+    <Compile Include="ChnToEng.cs" />
+    <Compile Include="UnZipTools.cs" />
+    <Compile Include="EnCoding.cs" />
+    <Compile Include="Regedit.cs" />
+    <Compile Include="Email.cs" />
+    <Compile Include="EmailTools.cs" />
+    <Compile Include="DatabaseOperation\DataOperator.cs" />
+    <Compile Include="DatabaseOperation\ParamCollections.cs" />
+    <Compile Include="DatabaseOperation\DBSqlParameter.cs" />
+    <Compile Include="DatabaseOperation\DataType.cs" />
+    <Compile Include="DatabaseOperation\IMQEntity.cs" />
+    <Compile Include="DatabaseOperation\SQLExecEntity.cs" />
+    <Compile Include="DatabaseOperation\DB_Helper.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

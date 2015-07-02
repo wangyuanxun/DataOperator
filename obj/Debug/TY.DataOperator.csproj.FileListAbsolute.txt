@@ -1,0 +1,5 @@
+C:\Users\王元勋\Desktop\新建文件夹\TY.DataOperator\bin\Debug\TY.DataOperator.dll
+C:\Users\王元勋\Desktop\新建文件夹\TY.DataOperator\bin\Debug\TY.DataOperator.pdb
+C:\Users\王元勋\Desktop\新建文件夹\TY.DataOperator\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\王元勋\Desktop\新建文件夹\TY.DataOperator\obj\Debug\TY.DataOperator.dll
+C:\Users\王元勋\Desktop\新建文件夹\TY.DataOperator\obj\Debug\TY.DataOperator.pdb
